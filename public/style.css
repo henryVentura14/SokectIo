@@ -1,5 +1,6 @@
 body{
   font-family: 'Nunito', sans-serif;
+  text-align: center;
 }
 .chatContainer{
   padding-bottom: 40px;
@@ -16,7 +17,6 @@ body{
 .chatWindows{
   padding: 15px 0;
   margin: 0 20px;
-  boreder-bottom: 4px solid #125faa;
   padding-bottom: 20px;
   font-size: 18px;
 }
