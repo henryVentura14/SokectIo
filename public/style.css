@@ -1,0 +1,65 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+.chatContainer{
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+  max-width: 600px;
+  max-height: 800px;
+  margin:30px auto;
+  border: 0;
+  box-shadow: 1px 3px 5px rgba(0,0,0, .5);
+}
+.chatWindows{
+  padding: 15px 0;
+  margin: 0 20px;
+  boreder-bottom: 4px solid #125faa;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.output p{
+  text-align: center;
+  color: #545454;
+  padding: 15px 0;
+  margin : 0 20px;
+}
+
+.actions{
+  padding: 14px 0;
+  margin: 0 20px;
+  border-bottom: 1px solid #125faa;
+  color:#555;
+
+}
+
+input{
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  background: #eee;
+  display:block;
+  width: 75%;
+}
+
+button{
+  background: #575ed8;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  width: 75%;
+  height: 30px;
+}
+button:hover{
+  background-color: #fff;
+  color: #555;
+  border: solid #575ed8 1px;
+}

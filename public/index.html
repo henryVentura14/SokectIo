@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chat socketIO</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body>
+  <h1>welcome to do jungle</h1>
+
+  <div id="chatContainer" class="chatContainer">
+    <div id="chatWindows" class="chatWindows">
+    <div id="output" class="output"></div>
+    <div id="actions" class="actions"></div>
+    </div>
+    <input type="text" id="username" placeholder="username">
+    <input type="text" id="message" placeholder="Message">
+    <button id="send">Enviar</button>
+  </div>
+
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="chat.js"></script>
+
+
+</body>
+</html>
