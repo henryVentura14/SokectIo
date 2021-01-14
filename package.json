@@ -1,15 +1,14 @@
 {
   "name": "soketio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chat soket IO",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
-    "star": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Henry Ventura",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.2",
     "socket.io": "^2.0.4"

@@ -37,7 +37,6 @@ body{
 }
 
 input{
-
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 10px 20px;
@@ -50,6 +49,7 @@ input{
 }
 
 button{
+  cursor: pointer;
   background: #575ed8;
   color: #fff;
   font-size: 18px;
